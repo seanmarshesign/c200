@@ -1,88 +1,238 @@
-<style>
-/* Change the form background color, text color, and typeface */
-.can_embed #can_embed_form,
-.can_embed #donate_auto_modal {
-	background-color: white !important;
-	color: black !important;
-	font-family: /* enter your typeface name here */
-}
-​
-/* Change link color */
-.can_embed #can_embed_form a,
-.can_embed #donate_auto_modal a {
-	color: #6ac2c4 !important;
-}
-​
-/* Heading colors */
-.can_embed #can_embed_form h1,
-.can_embed #donate_auto_modal h1,
-.can_embed #can_embed_form h2,
-.can_embed #donate_auto_modal h2,
-.can_embed #can_embed_form h3,
-.can_embed #donate_auto_modal h3,
-.can_embed #can_embed_form h4,
-.can_embed #donate_auto_modal h4,
-.can_embed #can_embed_form h5,
-.can_embed #donate_auto_modal h5,
-.can_embed #can_embed_form h6,
-.can_embed #donate_auto_modal h6 {
-	color: #003961 !important;
-}
-​
-/* Welcome message background color */
-.can_embed #can_embed_form #action_welcome_message #action_welcome_message_inner,
-.can_embed #donate_auto_modal #action_welcome_message #action_welcome_message_inner {
-	background-color: rgba(0, 57, 97, 1) !important;
-	/* This is navy @ 100% opacity */
-}
-​
-/* Remove the Action Network Logo */
-.can_embed #logo_wrap {
-	display: none !important;
-}
-​
-/* Button Background Color */
-.can_embed .can_button,
-.can_embed #can_embed_form input[type="submit"],
-.can_embed #can_embed_form .button,
-.can_embed #donate_auto_modal input[type="submit"],
-.can_embed #donate_auto_modal .button {
-	background-color: #6ac2c4 !important;
-}
-​
-/* Button Background Color on Hover */
-.can_embed .can_button:hover,
-.can_embed #can_embed_form input[type="submit"]:hover,
-.can_embed #can_embed_form .button:hover,
-.can_embed #donate_auto_modal input[type="submit"]:hover,
-.can_embed #donate_auto_modal .button:hover {
-	background-color: #8ccccf !important;
-}
-​
-/* Thank You Page Header Background Color */
-.can_embed #can_embed_form #can_thank_you,
-.can_embed #donate_auto_modal #can_thank_you {
-	background-color: #f4e5d0 !important;
-}
-​
-/* Thank You Page Header Text Color */
-.can_embed #can_embed_form #can_thank_you,
-.can_embed #donate_auto_modal #can_thank_you,
-.can_embed #can_embed_form #can_thank_you h1,
-.can_embed #donate_auto_modal #can_thank_you h1,
-.can_embed #can_embed_form #can_thank_you h4,
-.can_embed #donate_auto_modal #can_thank_you h4,
-.can_embed #can_embed_form #can_thank_you #action_info .action_info_user,
-.can_embed #donate_auto_modal #can_thank_you #action_info .action_info_user,
-.can_embed #can_embed_form #can_thank_you #action_info .action_info_user a,
-.can_embed #donate_auto_modal #can_thank_you #action_info .action_info_user a {
-	color: #003961 !important;
-}
-​
-/* Thank You Page Divider Line */
-.can_embed #can_embed_form #can_thank_you #action_info,
-.can_embed #donate_auto_modal #can_thank_you #action_info {
-	border-color: #6ac2c4 !important;
-}
-</style>
-<link href='https://act.climate200.com.au/css/style-embed-whitelabel-v3.css' rel='stylesheet' type='text/css' /><script src='https://act.climate200.com.au/widgets/v5/petition/pipeline-petition?format=js&source=widget'></script><div id='can-petition-area-pipeline-petition' style='width: 300px'><!-- this div is the target for our HTML insertion --></div><link href='https://act.climate200.com.au/css/style-embed-v3.css' rel='stylesheet' type='text/css' /><script src='https://act.climate200.com.au/widgets/v5/petition/pipeline-petition?format=js&source=widget'></script><div id='can-petition-area-pipeline-petition' style='width: 600px'><!-- this div is the target for our HTML insertion --></div>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		
+		
+		<!-- [START CUSTOM CSS - GENERATED FOR USERS] -->
+		<!-- This CSS was generated for you, feel free to add to or edit it. -->
+		<style type="text/css">
+			body {
+				font-family:"Helvetica",Arial,sans-serif;
+				color:#003961;
+				margin: 0;
+			}
+			
+			#gen_header {
+				padding: 0;
+				background-color: #ffffff; /* [THIS IS GENERATED FROM THE *FIRST* COLOR PICKER OPTION] */
+				text-align: left;
+			}
+			
+			
+			#gen_header img {
+				width: 100%;
+				max-width: 250px;
+			}
+			
+			.gen_wrapper {
+				padding: 40px 20px;
+				width: 1160px;
+				max-width: 100%;
+				margin: auto;
+				box-sizing: border-box;
+			}
+			
+			.gen_wrapper #can_embed_form input[type="submit"],
+			.can_embed-html #can_embed_form input[type="submit"],
+			.gen_wrapper #can_embed_form .button,
+			.can_embed-html #can_embed_form .button,
+			.gen_wrapper #donate_auto_modal input[type="submit"],
+			.can_embed-html #donate_auto_modal input[type="submit"],
+			.gen_wrapper #donate_auto_modal .button,
+			.can_embed-html #donate_auto_modal .button {
+				background-color:#6ac2c4; /* [THIS IS GENERATED FROM THE *SECOND* COLOR PICKER OPTION] */
+			}
+			
+				.gen_wrapper #can_embed_form input[type="submit"]:hover,
+				.can_embed-html #can_embed_form input[type="submit"]:hover,
+				.gen_wrapper #can_embed_form .button:hover,
+				.can_embed-html #can_embed_form .button:hover,
+				.gen_wrapper #donate_auto_modal input[type="submit"]:hover,
+				.can_embed-html #donate_auto_modal input[type="submit"]:hover,
+				.gen_wrapper #donate_auto_modal .button:hover, 
+				.can_embed-html #donate_auto_modal .button:hover {
+					background-color:#6ac2c4;  /* [THIS IS GENERATED FROM THE *SECOND* COLOR PICKER OPTION] */
+					opacity: .7;
+				}
+			
+			.gen_wrapper #can_embed_form .action_status_running_total,
+			.can_embed-html #can_embed_form .action_status_running_total,
+			.gen_wrapper .gen_name,
+			.gen_wrapper a,
+			#can_fundraising_widget a,
+			.ticketed_event a {
+				color:#6ac2c4; /* [THIS IS GENERATED FROM THE *SECOND* COLOR PICKER OPTION] */
+				text-decoration: none;
+			}
+			
+			.gen_wrapper a:hover,
+			#can_fundraising_widget a:hover,
+			.ticketed_event a:hover {
+				color:#6ac2c4; /* [THIS IS GENERATED FROM THE *SECOND* COLOR PICKER OPTION] */
+				opacity: .7;
+				text-decoration: none;
+			}
+
+  
+
+            .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix,
+            .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix,
+            .gen_body > .gen_wrapper.layout--full #can_embed_form > .clearfix {
+                align-items: flex-start;
+                display: flex;
+                flex-flow: row wrap;
+            }
+
+            .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix .can_thank_you-block,
+            .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix .can_thank_you-block,
+            .gen_body > .gen_wrapper.layout--full #can_embed_form > .clearfix .can_thank_you-block,
+            .gen_body > .gen_wrapper.layout--reverse #can_embed_form.can_768 > .clearfix .can_thank_you-block,
+            .gen_body > .gen_wrapper.layout--equal #can_embed_form.can_768 > .clearfix .can_thank_you-block,
+            .gen_body > .gen_wrapper.layout--full #can_embed_form.can_768 > .clearfix .can_thank_you-block {
+                width: 100%;
+            }
+
+            .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix .can_thank_you-block #referral_code_select_wrap,
+            .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix .can_thank_you-block #referral_code_select_wrap,
+            .gen_body > .gen_wrapper.layout--full #can_embed_form > .clearfix .can_thank_you-block #referral_code_select_wrap {
+                width: 100%;
+            }
+
+            /* Petition Action */
+            .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix #can_main_col #action_info .action_owner_box {
+                float: none;
+                margin-right: 0;
+                width: 100%;
+            }
+
+            @media (min-width: 768px) {
+                .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix,
+                .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix,
+                .gen_body > .gen_wrapper.layout--full #can_embed_form > .clearfix {
+                    flex-flow: row nowrap;
+                }
+
+                .gen_body > .gen_wrapper.layout--reverse #can_embed_form.can_thank_you_wrap > .clearfix,
+                .gen_body > .gen_wrapper.layout--equal #can_embed_form.can_thank_you_wrap > .clearfix,
+                .gen_body > .gen_wrapper.layout--full #can_embed_form.can_thank_you_wrap > .clearfix {
+                    flex-flow: row wrap;
+                }
+
+                .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix #referral_code_select_wrap,
+                .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix #referral_code_select_wrap,
+                .gen_body > .gen_wrapper.layout--full #can_embed_form > .clearfix #referral_code_select_wrap {
+                    width: 100%;
+                }
+
+                .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix .can_thank_you-block,
+                .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix .can_thank_you-block,
+                .gen_body > .gen_wrapper.layout--full #can_embed_form > .clearfix .can_thank_you-block,
+                .gen_body > .gen_wrapper.layout--reverse #can_embed_form.can_768 > .clearfix .can_thank_you-block,
+                .gen_body > .gen_wrapper.layout--equal #can_embed_form.can_768 > .clearfix .can_thank_you-block,
+                .gen_body > .gen_wrapper.layout--full #can_embed_form.can_768 > .clearfix .can_thank_you-block {
+                    width: 31%;
+                }
+            }
+
+            .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix #can_sidebar,
+            .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix #can_sidebar, 
+            .gen_body > .gen_wrapper.layout--full #can_embed_form > .clearfix #can_sidebar  {
+                margin-left: auto;
+            }
+
+            .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix #can_sidebar {
+                width: 100%;
+            }
+
+            .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix #can_main_col {
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+
+            .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix #can_sidebar {
+                width: 100%;
+            }
+
+            .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix #can_main_col {
+                width: 100%;
+                margin-bottom: 2rem;
+            }
+            
+            @media (min-width: 768px) {
+                .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix #can_sidebar {
+                    width: 65%;
+                }
+
+                .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix #can_main_col {
+                    width: 30%;
+                    margin-bottom: 0;
+                }
+
+                .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix #can_letter_one_col #can_sidebar,
+                .gen_body > .gen_wrapper.layout--reverse #can_embed_form > .clearfix #can_letter_one_col #can_main_col,
+                .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix #can_letter_one_col #can_sidebar,
+                .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix #can_letter_one_col #can_main_col {
+                    width: 100%;
+                }
+
+                .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix #can_sidebar {
+                    width: 48%;
+                }
+
+                .gen_body > .gen_wrapper.layout--equal #can_embed_form > .clearfix #can_main_col {
+                    width: 48%;
+                    margin-bottom: 0;
+                }
+            }
+
+            .gen_body > .gen_wrapper.layout--full #can_embed_form > .clearfix {
+                flex-flow: row wrap;
+            }
+
+            .gen_body > .gen_wrapper.layout--full #can_embed_form > .clearfix #can_sidebar {
+                width: 100%;
+            }
+
+            .gen_body > .gen_wrapper.layout--full #can_embed_form > .clearfix #can_main_col {
+                margin-bottom: 2rem;
+                width: 100%;
+            }
+            
+            .gen_body > .gen_wrapper.layout--reverse .event_campaign #can_embed_form > .clearfix,
+            .gen_body > .gen_wrapper.layout--full .event_campaign #can_embed_form > .clearfix,
+            .gen_body > .gen_wrapper.layout--equal .event_campaign #can_embed_form > .clearfix  {
+                flex-flow: row wrap;
+            }
+
+            .gen_body > .gen_wrapper.layout--reverse .event_campaign #can_embed_form > .clearfix .entry-title,
+            .gen_body > .gen_wrapper.layout--full .event_campaign #can_embed_form > .clearfix .entry-title,
+            .gen_body > .gen_wrapper.layout--equal .event_campaign #can_embed_form > .clearfix .entry-title {
+                width: 100%;
+            }
+
+            .gen_body > .gen_wrapper.layout--reverse .event_campaign #can_embed_form > .clearfix #can_sidebar,
+            .gen_body > .gen_wrapper.layout--full .event_campaign #can_embed_form > .clearfix #can_sidebar,
+            .gen_body > .gen_wrapper.layout--equal .event_campaign #can_embed_form > .clearfix #can_sidebar {
+                order: 2;
+            }
+            
+            
+     
+		</style>
+		
+	</head>
+	<body class="gen_body">
+		<div id="gen_header">
+			<div class="gen_wrapper">
+				<!-- [THE IMAGE BELOW IS GENERATED FROM THE LOGO UPLOAD - [ORGANIZATION NAME] IS ALSO A FIELD] -->
+				<img src="https://can2-prod.s3.amazonaws.com/page_wrappers/logos/000/022/107/original/Climate200-rgb.png" alt="Climate 200" / max-width: 150px;> 
+				
+				<!-- [IF NO IMAGE IS UPLOADED, PUT THE [ORGANIZATION NAME] IN H1 TAGS] -->
+				<h1 class="gen_name"></h1>
+			</div>
+		</div>
+		<div class="gen_wrapper">
+			
+		<!-- END TEMPLATE HEADER - START WIDGET -->
